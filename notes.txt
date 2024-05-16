@@ -1,2 +1,23 @@
 gsap is a javascript animation library.
 used to  built animation 
+
+gsap.to() --> initial to final
+gsap.from() --> final to initial
+
+gsap.to("#box1",{
+    x:1000,
+    duration:2,
+    delay: 1,
+    borderRadius:"50%",
+    backgroundColor:"yellow",
+    rotate:360
+})
+
+gsap.from("#box2",{
+    x:1000,
+    y:500,
+    duration:2,
+    delay: 1
+})
+
+stagger--> means run the multiple element one by one
