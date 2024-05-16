@@ -1,23 +1,12 @@
-gsap is a javascript animation library.
-used to  built animation 
+GSAP (GreenSock Animation Platform): A JavaScript library for creating animations on websites.
 
-gsap.to() --> initial to final
-gsap.from() --> final to initial
+gsap.to(): Animates an element from its initial state to a defined final state.
 
-gsap.to("#box1",{
-    x:1000,
-    duration:2,
-    delay: 1,
-    borderRadius:"50%",
-    backgroundColor:"yellow",
-    rotate:360
-})
+gsap.from(): Animates an element from a defined final state to its initial state.
 
-gsap.from("#box2",{
-    x:1000,
-    y:500,
-    duration:2,
-    delay: 1
-})
+Stagger: Executes animations on multiple elements one after another for dynamic effects.
 
-stagger--> means run the multiple element one by one
+Timeline: Synchronizes multiple animations for precise control over sequencing and timing.
+
+Yoyo: Creates animations that oscillate back and forth between initial and final states for fluid motion.
+

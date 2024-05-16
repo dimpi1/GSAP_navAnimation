@@ -15,26 +15,7 @@ html,body{
     width: 100%;
 }
 
-/* #box1{
-    height: 300px;
-    width: 300px;
-    background-color: crimson;
-}
-
-#box2{
-    height: 300px;
-    width: 300px;
-    background-color: rgb(33, 225, 209);
-} */
-
-/* #box{
-    height: 300px;
-    width: 300px;
-    background-color: crimson;
-} */
-
 #nav{
-    /* background-color: aqua; */
     display: flex;
     align-items: center;
     justify-content: space-between;
